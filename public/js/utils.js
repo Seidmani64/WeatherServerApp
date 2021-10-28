@@ -3,7 +3,7 @@ console.log('Archivo javascript cliente cargado!')
 
 
 function getCity() {
-    fetch('http://localhost:3000/weather?address=' + document.getElementById("city").value).then((response) => {
+    fetch('https://warm-beyond-29054.herokuapp.com/weather?address=' + document.getElementById("city").value).then((response) => {
     response.json().then((data) => {
         if(data.data == undefined || data.data == "undefined"){
             document.getElementById("results").innerHTML = "City not found."
