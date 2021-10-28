@@ -2,12 +2,12 @@ const path = require('path')
 const express = require('express')
 const app = express()
 const hbs = require('hbs')
-const forecast = require('./utils/forecast')
+const forecast = require('./src/utils/forecast')
 const port = process.env.PORT || 3000
 
-const publicDirectoryPath = path.join(__dirname, '../public')
-const viewsPath = path.join(__dirname, '../templates/views')
-const partialsPath = path.join(__dirname, '../templates/partials') 
+const publicDirectoryPath = path.join(__dirname, '/public')
+const viewsPath = path.join(__dirname, '/templates/views')
+const partialsPath = path.join(__dirname, '/templates/partials') 
 
 
 app.use(express.static(publicDirectoryPath))
