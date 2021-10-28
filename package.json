@@ -3,5 +3,11 @@
     "express": "^4.17.1",
     "hbs": "^4.1.2",
     "nodemon": "^2.0.14"
+  },
+  "engines": {
+    "node": "15.0.0"
+  },
+  "scripts": {
+    "start": "/src/app.js"
   }
 }
