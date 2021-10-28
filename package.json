@@ -6,8 +6,5 @@
   },
   "engines": {
     "node": "15.0.0"
-  },
-  "scripts": {
-    "start":"node /src/app.js"
   }
 }
