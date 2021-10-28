@@ -1,0 +1,60 @@
+h1 {
+    color: yellow
+}
+
+h2{
+    color: darkblue
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+
+body{
+    background-color: skyblue
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+}
+
+
+.header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.footer{
+    margin: auto;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
