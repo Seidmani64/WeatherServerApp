@@ -8,6 +8,6 @@
     "node": "15.0.0"
   },
   "scripts": {
-    "start": "/src/app.js"
+    "start": "src/app.js"
   }
 }
